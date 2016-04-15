@@ -1913,8 +1913,8 @@ Considering the shortest paths with negative weights adds other additional const
 \item M[k,v]=min(M[k-1,v],min(M[k-1,u]+w(u,v):(u,v)$\in$ E))
 \item If $\exists v: M[n,v]\neq M[n-1,v]\to \exists$ negative cycles
 \end{itemize}
-Refering to the earlier graph for which Dijkstra's algorithm yielded a non-optimal solution, consider the following table illustrating the execution of the Bellman-Ford algorithm.
-\begin{figure}
+Referring to the earlier graph for which Dijkstra's algorithm yielded a non-optimal solution, consider the following table illustrating the execution of the Bellman-Ford algorithm.
+\begin{figure}[h]
 \centering
 \begin{tabular}{|c|c|c|c|c|}
 \hline
@@ -1940,5 +1940,60 @@ Consider the following graph which is simple, but obviously contains a negative 
 3&\textbf{-1}& & \\ \hline
 \end{tabular}
 \end{figure}
+\subsection{Bellman-Ford Pseudocode}
+Complexity of this algorithm is $\Theta(n(n+m))\to\Theta(n^2)$
+\begin{algorithm}[h]
+BellmanFord(G,w,s)\Begin{
+	M[n+1[n]=new solution table\\
+	$\pi$[n]=new parent vector\\
+	$\forall v \in V M[0,v]=\infty$\\
+	M[0,s]=0\\
+	$\pi$[s]=NULL\\
+	\For{k=1 to n}{
+		\For{v in V}{
+			M[k,v]=M[k-1,v]\\
+			\For{ (u,v)$\in$E}{
+				\If{M[k-1,v]+w(u,v)$<$M[k,v]}{
+					M[k,v]=M[k-1,v]+w(u,v)\\
+					$\pi$[v]=u
+				}
+			}
+			\If{(k==n$\wedge$M[k,v]$\neq$M[k-1,v]}{
+				return "G has a negative cycle"
+			}
+		}
+	}
+	return M, $\pi$
+}
+\end{algorithm}
+\FloatBarrier
+\pagebreak
 
+\subsection{Bellman-Ford Example Problem}
+Consider the following graph and construct the table generated during the execution of the Bellman-Ford Algorithm:
+\begin{figure}[h]
+\centering
+\includegraphics[width=9cm]{bfex2}\\
+\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\hline
+ &1&2&3&4&5&6& \\ \hline \hline
+0&0&$\infty$&$\infty$&$\infty$&$\infty$&$\infty$& \\ \hline
+1&0&1&2&$\infty$&$\infty$&$\infty$& \\ \hline
+2&0&1&0&0&8&$\infty$& \\ \hline
+3&0&1&0&0&6&-2&$\ast$\\ \hline
+4&0&1&0&0&6&-2&$\ast$\\ \hline
+5&0&1&0&0&6&-2& \\ \hline
+6&0&1&0&0&6&-2& \\ \hline
+\end{tabular}\\
+\vspace{.5cm}
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+$\pi$&1&2&3&4&5&6 \\ \hline
+ &NULL&1&2&2&3&4\\ \hline
+\end{tabular}
+\caption{Complete Bellman-Ford Execution Example}
+\end{figure}
+\FloatBarrier
+Note starred rows in the preceding example. In the context of this algorithm's execution, two consecutive row iterations that do not exhibit any changes indicate that the shortest paths have already been found. Once two rows remain unchanged, there will be no further changes in the table. Algorithm execution could halt at that point.
+\section{Floyd Worshall Algorithm}
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  15 APR 2016 14:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  15 APR 2016 15:47
 entering extended mode
 **./AlgorithmsNotesCS2500.tex
 (AlgorithmsNotesCS2500.tex
@@ -947,19 +947,36 @@ Package pdftex.def Info: negcycleex.png used on input line 1933.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[81 <./negcycles.png>] [82 <./negcycleex.png>] (AlgorithmsNotesCS2500.aux) )
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[81 <./negcycles.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[82 <./negcycleex.png>] <bfex2.png, id=336, 361.35pt x 182.1204pt>
+File: bfex2.png Graphic file (type png)
+
+<use bfex2.png>
+Package pdftex.def Info: bfex2.png used on input line 1976.
+(pdftex.def)             Requested size: 256.0748pt x 129.06183pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[83] [84 <./bfex2.png>] (AlgorithmsNotesCS2500.aux) )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3511 strings out of 493634
- 47951 string characters out of 3141320
+ 3516 strings out of 493634
+ 48015 string characters out of 3141320
  128639 words of memory out of 3000000
- 6817 multiletter control sequences out of 15000+200000
+ 6821 multiletter control sequences out of 15000+200000
  14739 words of font info for 55 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,23n,45p,664b,1871s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,24n,45p,664b,1885s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
@@ -978,9 +995,9 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on AlgorithmsNotesCS2500.pdf (82 pages, 1385353 bytes).
+Output written on AlgorithmsNotesCS2500.pdf (84 pages, 1403917 bytes).
 PDF statistics:
- 395 PDF objects out of 1000 (max. 8388607)
+ 402 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 256 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 
