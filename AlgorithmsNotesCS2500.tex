@@ -2110,4 +2110,32 @@ $D^{(5)}$&1&2&3&4&5\\ \hline \hline
 \end{figure}
 \FloatBarrier
 \section{Maximum Flow and Flow Networks}
+In the context of a graph, there exists two particular nodes, a source s and a destination t, such that the source generates data that are transported to the destination. The network can be represented as a directed graph where each edge has a capacity representing the amount of data that can go through the links. Intermediate nodes act as a relay and forward the data. This implies that, at each node, data in=data out i.e. no loss or gain. 
+\paragraph{MaxFlow problem:} Find the maximum amount of data that the source can produce and can be sent to the destination through the network without violating capacity constraints. Consider the simple example below:
+\begin{figure}[h]
+\centering
+\includegraphics[width=8cm]{mfsimple}
+\caption{Simple Flow Network example in which the maxflow is 4}
+\end{figure}
+\begin{definition}[Flow Network]
+Directed grapg G=(V,E)\\
+$\forall (u,v)\in E c(u,v)\geq 0$ is the capacity\\
+if $(u,v)\in E$ then $(v,u)\ni E$\\
+No self loops\\
+if $(u,v)\ni Ev)=0$\\
+$\exists$ 2 special nodes s and t $\in$ V\\
+$\forall v \in V\setminus \{s,t\} \exists path: \{s,\dots,v,\dots,t\}$ 
+\end{definition}
+\begin{definition}[A flow]
+A flow in G is a function $f: V\times V\to R:$
+\begin{itemize}
+\item $\forall (u,v)\in V, 0\leq f(u,v)\leq c(u,v)$ This is the capacity constraint
+\item $\forall u \in V\setminus\{s,t\} \sum_{v\in V}f(u,v)=\sum_{v\in V}f(v,u)$ Flow conservation constraint
+\end{itemize} 
+\end{definition}
+\begin{definition}[Flow magnitude]
+Given a flow of f the value $|f|$ is defined as follows:
+\[|f|=\sum_{v\in V}f(s,v)-\sum_{v\in V}f(v,s)\]
+\end{definition}
+
 \end{document}
