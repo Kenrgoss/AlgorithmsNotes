@@ -2009,9 +2009,105 @@ Note starred rows in the preceding example. In the context of this algorithm's e
 \begin{definition}[Intermediate Node]\hfill \break
 Given a path $p=\{v_1,v_2,\dots v_l\}$ an intermediate node of p is any node $\in \{v_2,\dots v_{l-1}\}$ i.e. not the first or last node. 
 \end{definition}
-\paragraph{ }Considere the verticies $\{1\dots k\} \forall k \geq 0$ for a pair of nodes $i,j\in V$, let p be the shortest path such that all intermediate verticies of p are elements in $\{1,\dots k\}$
+\paragraph{ }Consider the verticies $\{1\dots k\} \forall k \geq 0$ for a pair of nodes $i,j\in V$, let p be the shortest path such that all intermediate verticies of p are elements in $\{1,\dots k\}$
 \begin{itemize}
-\item If k is not an intermediate vertex or node of p, p is also the shortest path with intermediate nodes $[1\dotsk-1]$.
-\item If k is an intermediate vertex of p 
+\item If k is not an intermediate vertex or node of p, p is also the shortest path with intermediate nodes $[1\dots k-1]$.
+\item If k is an intermediate vertex of p:
+\begin{itemize}
+\item $p_1$ cannot have k as an intermediate vertex
+\item $p_1$ and $p_2$ are both shortest paths due to the optimality principle 
+\item $p_1$ is the shortest path from i to k with \{i+1$\dots$k-1\} intermediate nodes .
+\item $p_2$ is the shortest path between k and j \{k+1$\dots$j-1\} intermediate nodes.  
+
+\end{itemize} 
+\item Let $d_{ij}^{(k)}$ be the weight of the shortest path between i and j with intermediate nodes \{1$\dots$k\}:
+\[d_{ij}^{(k)}=min\left(d_{ij}^{(k-1)},(d_{ik}^{(k-1)}+d_{kj}^{(k-1)})\right)\]
 \end{itemize}
+\begin{algorithm}[h]
+FloydWorshall(W,n)\Begin{
+	$D^{(0)}=W$// $n_0$ zero intermediate nodes, direct edges only\\
+	\For{k=1 to n}{
+		Let $D^{(k)}$ be a new n$\times $n matrix\\
+		\For{i=1 to n}{
+			\For{j=1 to n}{
+				$D_{ij}^{(k)}=min\left(D_{ij}^{(k-1)},(D_{ik}^{(k-1)}+D_{kj}^{(k-1)})\right)$
+			}
+		}
+	}
+	return $D^{(n)}$
+}
+\end{algorithm}
+\FloatBarrier
+\subsection{Floyd Worshall Example}
+Consider the following graph, and the tables which are generated from the algorithm execution.
+\begin{figure}[h]
+\centering
+\includegraphics[width=8cm]{fwex}
+\end{figure}
+\begin{figure}[h]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|} \hline
+$D^{(0)}$&1&2&3&4&5\\ \hline \hline
+1&0&3&8&$\infty$&-4\\ \hline
+2&$\infty$&0&$\infty$&1&7\\ \hline
+3&$\infty$&4&0&$\infty$&$\infty$\\ \hline
+4&2&$\infty$&-5&0&$\infty$\\ \hline
+5&$\infty$&$\infty$&$\infty$&6&0\\ \hline
+\end{tabular}
+\caption{FloydWorshall 0 - Direct edges - 0 intermediate nodes}
+\end{figure}
+\begin{figure}[h]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|} \hline
+$D^{(1)}$&1&2&3&4&5\\ \hline \hline
+1&0&3&8&$\infty$&-4\\ \hline
+2&$\infty$&0&$\infty$&1&7\\ \hline
+3&$\infty$&4&0&$\infty$&$\infty$\\ \hline
+4&2&5&-5&0&-2\\ \hline
+5&$\infty$&$\infty$&$\infty$&6&0\\ \hline
+\end{tabular}
+\caption{FloydWorshall 1 - 1 intermediate node - $4\to 1 \to 2$ and $4\to 1 \to 5$ accounted for}
+\end{figure}
+\begin{figure}[h]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|} \hline
+$D^{(2)}$&1&2&3&4&5\\ \hline \hline
+1&0&3&8&\underline{4}&-4\\ \hline
+2&$\infty$&0&$\infty$&1&7\\ \hline
+3&$\infty$&4&0&\underline{5}&\underline{11}\\ \hline
+4&2&5&-5&0&-2\\ \hline
+5&$\infty$&$\infty$&$\infty$&6&0\\ \hline
+\end{tabular}
+\begin{tabular}{|c|c|c|c|c|c|} \hline
+$D^{(3)}$&1&2&3&4&5\\ \hline \hline
+1&0&3&8&4&-4\\ \hline
+2&$\infty$&0&$\infty$&1&7\\ \hline
+3&$\infty$&4&0&5&11\\ \hline
+4&2&\underline{-1}&-5&0&-2\\ \hline
+5&$\infty$&$\infty$&$\infty$&6&0\\ \hline
+\end{tabular}
+\caption{FloydWorshall 2 and 3 (underlined values are those which have changed in the current iteration}
+\end{figure}
+\begin{figure}[h]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|} \hline
+$D^{(4)}$&1&2&3&4&5\\ \hline \hline
+1&0&3&\underline{-1}&4&-4\\ \hline
+2&\underline{3}&0&\underline{-4}&1&\underline{-1}\\ \hline
+3&\underline{7}&4&0&5&\underline{3}\\ \hline
+4&2&-1&-5&0&-2\\ \hline
+5&\underline{8}&\underline{5}&\underline{1}&6&0\\ \hline
+\end{tabular}
+\begin{tabular}{|c|c|c|c|c|c|} \hline
+$D^{(5)}$&1&2&3&4&5\\ \hline \hline
+1&0&\underline{1}&\underline{-3}&\underline{2}&-4\\ \hline
+2&3&0&-4&1&-1\\ \hline
+3&7&4&0&5&3\\ \hline
+4&2&-1&-5&0&-2\\ \hline
+5&8&5&1&6&0\\ \hline
+\end{tabular}
+\caption{FloydWorshall 4 and 5 (underlined values are those which have changed in the current iteration}
+\end{figure}
+\FloatBarrier
+\section{Maximum Flow and Flow Networks}
 \end{document}
