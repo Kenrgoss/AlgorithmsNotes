@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  15 APR 2016 15:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  18 APR 2016 07:13
 entering extended mode
 **./AlgorithmsNotesCS2500.tex
 (AlgorithmsNotesCS2500.tex
@@ -964,7 +964,7 @@ Package pdftex.def Info: bfex2.png used on input line 1976.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[83] [84 <./bfex2.png>] (AlgorithmsNotesCS2500.aux) )
+[83] [84 <./bfex2.png>] [85] (AlgorithmsNotesCS2500.aux) )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
@@ -995,9 +995,9 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on AlgorithmsNotesCS2500.pdf (84 pages, 1403917 bytes).
+Output written on AlgorithmsNotesCS2500.pdf (85 pages, 1405463 bytes).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
+ 406 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  261 words of extra memory for PDF output out of 10000 (max. 10000000)
 

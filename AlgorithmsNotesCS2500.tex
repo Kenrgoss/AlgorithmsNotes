@@ -1996,4 +1996,22 @@ $\pi$&1&2&3&4&5&6 \\ \hline
 \FloatBarrier
 Note starred rows in the preceding example. In the context of this algorithm's execution, two consecutive row iterations that do not exhibit any changes indicate that the shortest paths have already been found. Once two rows remain unchanged, there will be no further changes in the table. Algorithm execution could halt at that point.
 \section{Floyd Worshall Algorithm}
+\begin{itemize}
+\item Purpose of this algorithm is to calculate the shortest part between all pairs of nodes in a graph. 
+\item Works with negative cycles: cycles having a negative weight.
+\item Dynamic Programming solution:
+\begin{itemize}
+\item consider the subproblems of calculating the shortest paths by considering the first k nodes in the graph \{1$\dots$k\}. When k=n, the algorithm is complete. 
+\item The graph is represented as an adjacency matrix W n$\times$n:
+\[W[i,j]=\begin{cases}0 & i=j\\ w(i,j) & i\neq j \wedge (i,j)\in E \\ \infty & otherwise \end{cases}\]
+\end{itemize}
+\end{itemize}
+\begin{definition}[Intermediate Node]\hfill \break
+Given a path $p=\{v_1,v_2,\dots v_l\}$ an intermediate node of p is any node $\in \{v_2,\dots v_{l-1}\}$ i.e. not the first or last node. 
+\end{definition}
+\paragraph{ }Considere the verticies $\{1\dots k\} \forall k \geq 0$ for a pair of nodes $i,j\in V$, let p be the shortest path such that all intermediate verticies of p are elements in $\{1,\dots k\}$
+\begin{itemize}
+\item If k is not an intermediate vertex or node of p, p is also the shortest path with intermediate nodes $[1\dotsk-1]$.
+\item If k is an intermediate vertex of p 
+\end{itemize}
 \end{document}
