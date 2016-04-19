@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  18 APR 2016 21:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  19 APR 2016 12:07
 entering extended mode
 **./AlgorithmsNotesCS2500.tex
 (AlgorithmsNotesCS2500.tex
@@ -89,6 +89,26 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
+(C:\Users\Ken\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.sty
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip46
+\subfigcapskip=\skip47
+\subfigcaptopadj=\dimen112
+\subfigbottomskip=\skip48
+\subfigcapmargin=\dimen113
+\subfiglabelskip=\skip49
+\c@subfigure=\count99
+\c@lofdepth=\count100
+\c@subtable=\count101
+\c@lotdepth=\count102
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:\Users\Ken\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.cfg)
+\subfig@top=\skip50
+\subfig@bottom=\skip51
+)
 (C:\Users\Ken\AppData\Roaming\MiKTeX\2.9\tex\latex\soul\soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks19
@@ -96,10 +116,10 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@cmds=\toks21
 \SOUL@buffer=\toks22
 \SOUL@token=\toks23
-\SOUL@spaceskip=\skip46
-\SOUL@ttwidth=\dimen112
-\SOUL@uldp=\dimen113
-\SOUL@ulht=\dimen114
+\SOUL@spaceskip=\skip52
+\SOUL@ttwidth=\dimen114
+\SOUL@uldp=\dimen115
+\SOUL@ulht=\dimen116
 )
 (C:\Users\Ken\AppData\Roaming\MiKTeX\2.9\tex\latex\placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
@@ -134,19 +154,19 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count99
+\Gread@gobject=\count103
 ))
-\Gin@req@height=\dimen115
-\Gin@req@width=\dimen116
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
 )
 (C:\Users\Ken\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithm2e\algorithm2e.sty
 Package: algorithm2e 2013/01/06 v5.00 algorithms environments
-\c@AlgoLine=\count100
+\c@AlgoLine=\count104
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\algocf@hangindent=\skip47
+\algocf@hangindent=\skip53
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -161,128 +181,128 @@ Package `algorithm2e' Release 5.1 -- october 19 2015 --
 subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 - Author: Christophe Fiorio (christophe.fiorio@umontpellier.fr)
 ********************************************************
-\skiptotal=\skip48
-\skiplinenumber=\skip49
-\skiprule=\skip50
-\skiphlne=\skip51
-\skiptext=\skip52
-\skiplength=\skip53
-\algomargin=\skip54
-\skipalgocfslide=\skip55
-\algowidth=\dimen117
-\inoutsize=\dimen118
-\inoutindent=\dimen119
-\interspacetitleruled=\dimen120
-\interspacealgoruled=\dimen121
-\interspacetitleboxruled=\dimen122
-\algocf@ruledwidth=\skip56
+\skiptotal=\skip54
+\skiplinenumber=\skip55
+\skiprule=\skip56
+\skiphlne=\skip57
+\skiptext=\skip58
+\skiplength=\skip59
+\algomargin=\skip60
+\skipalgocfslide=\skip61
+\algowidth=\dimen119
+\inoutsize=\dimen120
+\inoutindent=\dimen121
+\interspacetitleruled=\dimen122
+\interspacealgoruled=\dimen123
+\interspacetitleboxruled=\dimen124
+\algocf@ruledwidth=\skip62
 \algocf@inoutbox=\box28
 \algocf@inputbox=\box29
-\AlCapSkip=\skip57
-\AlCapHSkip=\skip58
-\algoskipindent=\skip59
+\AlCapSkip=\skip63
+\AlCapHSkip=\skip64
+\algoskipindent=\skip65
 \algocf@nlbox=\box30
 \algocf@hangingbox=\box31
 \algocf@untilbox=\box32
-\algocf@skipuntil=\skip60
+\algocf@skipuntil=\skip66
 \algocf@capbox=\box33
-\algoheightruledefault=\skip61
-\algoheightrule=\skip62
-\algotitleheightruledefault=\skip63
-\algotitleheightrule=\skip64
-\c@algocfline=\count101
-\c@algocfproc=\count102
-\c@algocf=\count103
+\algoheightruledefault=\skip67
+\algoheightrule=\skip68
+\algotitleheightruledefault=\skip69
+\algotitleheightrule=\skip70
+\c@algocfline=\count105
+\c@algocfproc=\count106
+\c@algocf=\count107
 \algocf@algoframe=\box34
 \algocf@algobox=\box35
 )
-\c@definition=\count104
+\c@definition=\count108
  (AlgorithmsNotesCS2500.aux)
 \openout1 = `AlgorithmsNotesCS2500.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 (C:\Users\Ken\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
-\scratchdimen=\dimen123
+\scratchcounter=\count109
+\scratchdimen=\dimen125
 \scratchbox=\box36
-\nofMPsegments=\count106
-\nofMParguments=\count107
+\nofMPsegments=\count110
+\nofMParguments=\count111
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count108
-\MPscratchDim=\dimen124
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen126
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
 \everyMPtoPDFconversion=\toks26
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 17.
+LaTeX Font Info:    Try loading font information for U+msa on input line 18.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 17.
+LaTeX Font Info:    Try loading font information for U+msb on input line 18.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
  [1
 
 {C:/Users/Ken/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 <PseudoCode.jpg, id=15, 642.4pt x 401.5pt>
 File: PseudoCode.jpg Graphic file (type jpg)
  <use PseudoCode.jpg>
-Package pdftex.def Info: PseudoCode.jpg used on input line 73.
+Package pdftex.def Info: PseudoCode.jpg used on input line 74.
 (pdftex.def)             Requested size: 289.07999pt x 180.67944pt.
 
 <ISInutition.png, id=16, 614.295pt x 293.1753pt>
 File: ISInutition.png Graphic file (type png)
  <use ISInutition.png>
-Package pdftex.def Info: ISInutition.png used on input line 84.
+Package pdftex.def Info: ISInutition.png used on input line 85.
 (pdftex.def)             Requested size: 289.07999pt x 137.96687pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2 <./PseudoCode.jpg>] [3 <./ISInutition.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 107--125
+Underfull \hbox (badness 10000) in paragraph at lines 108--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--125
+Underfull \hbox (badness 10000) in paragraph at lines 108--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--125
+Underfull \hbox (badness 10000) in paragraph at lines 108--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--125
+Underfull \hbox (badness 10000) in paragraph at lines 108--126
 
  []
 
 
-Overfull \hbox (34.84912pt too wide) in paragraph at lines 132--157
+Overfull \hbox (34.84912pt too wide) in paragraph at lines 133--158
  [][] 
  []
 
@@ -290,7 +310,7 @@ Overfull \hbox (34.84912pt too wide) in paragraph at lines 132--157
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (9.6734pt too wide) detected at line 161
+Overfull \hbox (9.6734pt too wide) detected at line 162
 \OML/cmm/m/it/12 T\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 ) = \OML/c
 mm/m/it/12 c[]n \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 c[]\OT1/cmr/m/n/12 (\OML/cmm
 /m/it/12 n \OMS/cmsy/m/n/12   \OT1/cmr/m/n/12 1) + \OML/cmm/m/it/12 c[]\OT1/cmr
@@ -303,7 +323,7 @@ it/12 c[] [] t[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 c[] []\OT1/cmr/m/n/12 (\OML
  []
 
 
-Overfull \hbox (4.14008pt too wide) detected at line 163
+Overfull \hbox (4.14008pt too wide) detected at line 164
 \OML/cmm/m/it/12 T\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 ) = \OML/c
 mm/m/it/12 c[]n \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 c[]\OT1/cmr/m/n/12 (\OML/cmm
 /m/it/12 n \OMS/cmsy/m/n/12   \OT1/cmr/m/n/12 1) + \OML/cmm/m/it/12 c[]\OT1/cmr
@@ -315,7 +335,7 @@ OML/cmm/m/it/12 n \OMS/cmsy/m/n/12   \OT1/cmr/m/n/12 1)
  []
 
 [4]
-Overfull \hbox (0.35713pt too wide) detected at line 165
+Overfull \hbox (0.35713pt too wide) detected at line 166
 \OML/cmm/m/it/12 T\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 n\OT1/cmr/m/n/12 ) = \OML/c
 mm/m/it/12 c[]n \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 c[]\OT1/cmr/m/n/12 (\OML/cmm
 /m/it/12 n \OMS/cmsy/m/n/12   \OT1/cmr/m/n/12 1) + \OML/cmm/m/it/12 c[]\OT1/cmr
@@ -328,7 +348,7 @@ mm/m/it/12 c[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12   \OT1/cmr/m
  []
 
 
-Overfull \hbox (65.11pt too wide) detected at line 165
+Overfull \hbox (65.11pt too wide) detected at line 166
 \OMS/cmsy/m/n/12  \OML/cmm/m/it/12 c[]n \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 c[]
 \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12   \OT1/cmr/m/n/12 1) + \OM
 L/cmm/m/it/12 c[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 n \OMS/cmsy/m/n/12   \OT1/cm
@@ -338,53 +358,53 @@ r/m/n/12 1) + \OML/cmm/m/it/12 c[] [] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 c[] []
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--175
+Underfull \hbox (badness 10000) in paragraph at lines 174--176
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
 <bigo.png, id=32, 518.93875pt x 273.02pt>
 File: bigo.png Graphic file (type png)
  <use bigo.png>
-Package pdftex.def Info: bigo.png used on input line 179.
+Package pdftex.def Info: bigo.png used on input line 180.
 (pdftex.def)             Requested size: 284.52756pt x 149.69904pt.
  [6 <./bigo.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 185--187
+Underfull \hbox (badness 10000) in paragraph at lines 186--188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
 <bigomega.png, id=36, 489.83pt x 268.00125pt>
 File: bigomega.png Graphic file (type png)
  <use bigomega.png>
-Package pdftex.def Info: bigomega.png used on input line 212.
+Package pdftex.def Info: bigomega.png used on input line 213.
 (pdftex.def)             Requested size: 284.52756pt x 155.67801pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
 <bigtheta.png, id=41, 321.2pt x 158.5925pt>
 File: bigtheta.png Graphic file (type png)
  <use bigtheta.png>
-Package pdftex.def Info: bigtheta.png used on input line 236.
+Package pdftex.def Info: bigtheta.png used on input line 237.
 (pdftex.def)             Requested size: 284.52756pt x 140.48863pt.
 
 
@@ -394,29 +414,29 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <bigofun.png, id=46, 398.99063pt x 270.25969pt>
 File: bigofun.png Graphic file (type png)
  <use bigofun.png>
-Package pdftex.def Info: bigofun.png used on input line 251.
+Package pdftex.def Info: bigofun.png used on input line 252.
 (pdftex.def)             Requested size: 284.52756pt x 192.73521pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [9 <./bigtheta.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 272--276
+Underfull \hbox (badness 10000) in paragraph at lines 273--277
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--282
+Underfull \hbox (badness 10000) in paragraph at lines 279--283
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--287
+Underfull \hbox (badness 10000) in paragraph at lines 285--288
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--293
+Underfull \hbox (badness 10000) in paragraph at lines 290--294
 
  []
 
@@ -424,54 +444,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--293
 File: binsearch.png Graphic file (type png)
 
 <use binsearch.png>
-Package pdftex.def Info: binsearch.png used on input line 302.
+Package pdftex.def Info: binsearch.png used on input line 303.
 (pdftex.def)             Requested size: 142.26378pt x 98.7301pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [11 <./binsearch.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 327--335
+Underfull \hbox (badness 10000) in paragraph at lines 328--336
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--335
+Underfull \hbox (badness 10000) in paragraph at lines 328--336
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--335
+Underfull \hbox (badness 10000) in paragraph at lines 328--336
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--335
+Underfull \hbox (badness 10000) in paragraph at lines 328--336
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--335
+Underfull \hbox (badness 10000) in paragraph at lines 328--336
 
  []
 
 [12] [13]
-Overfull \hbox (61.55098pt too wide) in paragraph at lines 379--395
+Overfull \hbox (61.55098pt too wide) in paragraph at lines 380--396
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--397
+Underfull \hbox (badness 10000) in paragraph at lines 377--398
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 376--397
+Underfull \hbox (badness 10000) in paragraph at lines 377--398
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--406
+Underfull \hbox (badness 10000) in paragraph at lines 405--407
 
  []
 
@@ -482,21 +502,21 @@ Overfull \vbox (69.56334pt too high) has occurred while \output is active []
 [17] <mergesort.jpg, id=80, 465.74pt x 350.30875pt>
 File: mergesort.jpg Graphic file (type jpg)
  <use mergesort.jpg>
-Package pdftex.def Info: mergesort.jpg used on input line 492.
+Package pdftex.def Info: mergesort.jpg used on input line 493.
 (pdftex.def)             Requested size: 227.62204pt x 171.20378pt.
 
 [18 <./mergesort.jpg>]
-Overfull \hbox (71.03209pt too wide) in paragraph at lines 524--535
+Overfull \hbox (71.03209pt too wide) in paragraph at lines 525--536
  [][] 
  []
 
 <maxsubarray.jpg, id=84, 117.3183pt x 17.1039pt>
 File: maxsubarray.jpg Graphic file (type jpg)
  <use maxsubarray.jpg>
-Package pdftex.def Info: maxsubarray.jpg used on input line 548.
+Package pdftex.def Info: maxsubarray.jpg used on input line 549.
 (pdftex.def)             Requested size: 284.52756pt x 41.48311pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--550
+Underfull \hbox (badness 10000) in paragraph at lines 546--551
 
  []
 
@@ -504,25 +524,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 545--550
 File: maxcrosssubarraysme.png Graphic file (type png)
 
 <use maxcrosssubarraysme.png>
-Package pdftex.def Info: maxcrosssubarraysme.png used on input line 564.
+Package pdftex.def Info: maxcrosssubarraysme.png used on input line 565.
 (pdftex.def)             Requested size: 284.52756pt x 142.27312pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [20 <./maxsubarray.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 618--619
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
 
  []
 
 <quicksortbetter.png, id=93, 794.97pt x 614.295pt>
 File: quicksortbetter.png Graphic file (type png)
  <use quicksortbetter.png>
-Package pdftex.def Info: quicksortbetter.png used on input line 653.
+Package pdftex.def Info: quicksortbetter.png used on input line 654.
 (pdftex.def)             Requested size: 369.88582pt x 285.83168pt.
 
 [21 <./maxcrosssubarraysme.png>]
-Overfull \hbox (13.26984pt too wide) in paragraph at lines 658--660
+Overfull \hbox (13.26984pt too wide) in paragraph at lines 659--661
 \OT1/cmr/m/n/12 Worst case: x is the min $\OMS/cmsy/m/n/12 !$ \OT1/cmr/m/n/12 k
 =0 or x is the max $\OMS/cmsy/m/n/12 !$ \OT1/cmr/m/n/12 k=n-1 then Quicksort=$
 (\OML/cmm/m/it/12 n[]\OT1/cmr/m/n/12 )$: 
@@ -540,7 +560,7 @@ Overfull \vbox (1.6315pt too high) has occurred while \output is active []
 <countingsort.jpg, id=109, 439.6425pt x 159.59625pt>
 File: countingsort.jpg Graphic file (type jpg)
  <use countingsort.jpg>
-Package pdftex.def Info: countingsort.jpg used on input line 693.
+Package pdftex.def Info: countingsort.jpg used on input line 694.
 (pdftex.def)             Requested size: 284.52756pt x 103.29066pt.
 
 [25] [26 <./countingsort.jpg>]
@@ -548,7 +568,7 @@ Package pdftex.def Info: countingsort.jpg used on input line 693.
 File: greedyactivity.jpg Graphic file (type jpg)
 
 <use greedyactivity.jpg>
-Package pdftex.def Info: greedyactivity.jpg used on input line 724.
+Package pdftex.def Info: greedyactivity.jpg used on input line 725.
 (pdftex.def)             Requested size: 341.43306pt x 135.633pt.
  [27]
 
@@ -565,7 +585,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 799--812
+Underfull \hbox (badness 10000) in paragraph at lines 800--813
 
  []
 
@@ -574,42 +594,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 799--812
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [30] [31]
-Underfull \hbox (badness 10000) in paragraph at lines 840--843
+Underfull \hbox (badness 10000) in paragraph at lines 841--844
 
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 877--878
+Underfull \hbox (badness 10000) in paragraph at lines 878--879
 
  []
 
 [33] [34] [35]
-Overfull \hbox (2.75981pt too wide) in paragraph at lines 928--928
+Overfull \hbox (2.75981pt too wide) in paragraph at lines 929--929
 []\OT1/cmr/bx/n/17.28 General Dy-namic Pro-gram-ming Ap-proach 
  []
 
 [36]
-Overfull \hbox (70.20688pt too wide) in paragraph at lines 948--952
+Overfull \hbox (70.20688pt too wide) in paragraph at lines 949--953
 []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 948--952
+Underfull \hbox (badness 10000) in paragraph at lines 949--953
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 953--954
+Underfull \hbox (badness 10000) in paragraph at lines 954--955
 
  []
 
 [37] [38]
-Underfull \hbox (badness 10000) in paragraph at lines 1031--1034
+Underfull \hbox (badness 10000) in paragraph at lines 1032--1035
 
  []
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 1034--1035
+Underfull \hbox (badness 10000) in paragraph at lines 1035--1036
 
  []
 
@@ -634,31 +654,31 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [45] [46] [47] [48]
-Underfull \hbox (badness 10000) in paragraph at lines 1272--1274
+Underfull \hbox (badness 10000) in paragraph at lines 1273--1275
 
  []
 
 <defGraph1.png, id=188, 258.0039pt x 153.6942pt>
 File: defGraph1.png Graphic file (type png)
  <use defGraph1.png>
-Package pdftex.def Info: defGraph1.png used on input line 1292.
+Package pdftex.def Info: defGraph1.png used on input line 1293.
 (pdftex.def)             Requested size: 170.71652pt x 101.69644pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [49]
-Underfull \hbox (badness 10000) in paragraph at lines 1297--1298
+Underfull \hbox (badness 10000) in paragraph at lines 1298--1299
 
  []
 
 <AdjList.png, id=193, 522.2712pt x 273.1806pt>
 File: AdjList.png Graphic file (type png)
  <use AdjList.png>
-Package pdftex.def Info: AdjList.png used on input line 1301.
+Package pdftex.def Info: AdjList.png used on input line 1302.
 (pdftex.def)             Requested size: 284.52756pt x 148.82835pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1306--1307
+Underfull \hbox (badness 10000) in paragraph at lines 1307--1308
 
  []
 
@@ -678,26 +698,35 @@ Package pdftex.def Info: dfs1.png used on input line 1380.
 <dfs2.png, id=205, 240.6591pt x 156.8259pt>
 File: dfs2.png Graphic file (type png)
  <use dfs2.png>
-Package pdftex.def Info: dfs2.png used on input line 1385.
+Package pdftex.def Info: dfs2.png used on input line 1381.
 (pdftex.def)             Requested size: 156.49014pt x 101.97629pt.
 
 <dfs3.png, id=206, 236.8047pt x 157.5486pt>
 File: dfs3.png Graphic file (type png)
  <use dfs3.png>
-Package pdftex.def Info: dfs3.png used on input line 1386.
+Package pdftex.def Info: dfs3.png used on input line 1382.
 (pdftex.def)             Requested size: 156.49014pt x 104.117pt.
 
 <dfs4.png, id=207, 245.2362pt x 162.6075pt>
 File: dfs4.png Graphic file (type png)
  <use dfs4.png>
-Package pdftex.def Info: dfs4.png used on input line 1391.
+Package pdftex.def Info: dfs4.png used on input line 1383.
 (pdftex.def)             Requested size: 156.49014pt x 103.76324pt.
 
 <dfs5.png, id=208, 247.6452pt x 166.221pt>
 File: dfs5.png Graphic file (type png)
  <use dfs5.png>
-Package pdftex.def Info: dfs5.png used on input line 1392.
+Package pdftex.def Info: dfs5.png used on input line 1384.
 (pdftex.def)             Requested size: 156.49014pt x 105.0368pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1379--1385
+[][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1379--1385
+[] []
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -705,156 +734,154 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <dfs6g.png, id=209, 243.5499pt x 168.3891pt>
 File: dfs6g.png Graphic file (type png)
  <use dfs6g.png>
-Package pdftex.def Info: dfs6g.png used on input line 1397.
+Package pdftex.def Info: dfs6g.png used on input line 1389.
 (pdftex.def)             Requested size: 156.49014pt x 108.19516pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[53 <./dfs0.png> <./dfs1.png> <./dfs2.png> <./dfs3.png>] [54 <./dfs4.png> <./df
-s5.png> <./dfs6g.png>] <Topological.png, id=216, 323.7696pt x 105.2733pt>
+[53] [54 <./dfs0.png> <./dfs1.png> <./dfs2.png> <./dfs3.png> <./dfs4.png> <./df
+s5.png>] [55 <./dfs6g.png>] <Topological.png, id=221, 323.7696pt x 105.2733pt>
 File: Topological.png Graphic file (type png)
 
 <use Topological.png>
-Package pdftex.def Info: Topological.png used on input line 1420.
+Package pdftex.def Info: Topological.png used on input line 1412.
 (pdftex.def)             Requested size: 284.52756pt x 92.5187pt.
- <topo0.png, id=217, 261.1356pt x 388.0899pt>
+ <topo0.png, id=222, 261.1356pt x 388.0899pt>
 File: topo0.png Graphic file (type png)
 
 <use topo0.png>
-Package pdftex.def Info: topo0.png used on input line 1462.
+Package pdftex.def Info: topo0.png used on input line 1454.
 (pdftex.def)             Requested size: 184.9429pt x 274.86475pt.
- <topofin.png, id=218, 266.4354pt x 402.5439pt>
+ <topofin.png, id=223, 266.4354pt x 402.5439pt>
 File: topofin.png Graphic file (type png)
 
 <use topofin.png>
-Package pdftex.def Info: topofin.png used on input line 1463.
+Package pdftex.def Info: topofin.png used on input line 1455.
 (pdftex.def)             Requested size: 184.9429pt x 279.43243pt.
- <TopoSort.png, id=219, 561.5379pt x 303.0522pt>
+ <TopoSort.png, id=224, 561.5379pt x 303.0522pt>
 File: TopoSort.png Graphic file (type png)
 
 <use TopoSort.png>
-Package pdftex.def Info: TopoSort.png used on input line 1468.
+Package pdftex.def Info: TopoSort.png used on input line 1460.
 (pdftex.def)             Requested size: 341.43306pt x 184.26505pt.
- [55 <./Topological.png>] [56] [57 <./topo0.png> <./topofin.png>] [58 <./TopoSo
-rt.png>] [59] <bfs0.png, id=236, 357.2547pt x 207.8967pt>
+ [56
+
+ <./Topological.png>] [57] [58 <./topo0.png> <./topofin.png>] [59 <./TopoSort.p
+ng>] [60] <bfs0.png, id=240, 357.2547pt x 207.8967pt>
 File: bfs0.png Graphic file (type png)
 
 <use bfs0.png>
-Package pdftex.def Info: bfs0.png used on input line 1512.
+Package pdftex.def Info: bfs0.png used on input line 1504.
 (pdftex.def)             Requested size: 184.9429pt x 107.62154pt.
- <bfs1.png, id=237, 352.4367pt x 209.583pt>
+ <bfs1.png, id=241, 352.4367pt x 209.583pt>
 File: bfs1.png Graphic file (type png)
  <use bfs1.png>
-Package pdftex.def Info: bfs1.png used on input line 1513.
+Package pdftex.def Info: bfs1.png used on input line 1505.
 (pdftex.def)             Requested size: 184.9429pt x 109.98154pt.
 
-<bfs2.png, id=238, 352.4367pt x 207.8967pt>
+<bfs2.png, id=242, 352.4367pt x 207.8967pt>
 File: bfs2.png Graphic file (type png)
  <use bfs2.png>
-Package pdftex.def Info: bfs2.png used on input line 1517.
+Package pdftex.def Info: bfs2.png used on input line 1506.
 (pdftex.def)             Requested size: 184.9429pt x 109.09663pt.
 
-<bfs3.png, id=239, 351.9549pt x 207.4149pt>
+<bfs3.png, id=243, 351.9549pt x 207.4149pt>
 File: bfs3.png Graphic file (type png)
  <use bfs3.png>
-Package pdftex.def Info: bfs3.png used on input line 1518.
+Package pdftex.def Info: bfs3.png used on input line 1507.
 (pdftex.def)             Requested size: 184.9429pt x 108.9894pt.
 
-<bfs4.png, id=240, 342.8007pt x 209.1012pt>
+<bfs4.png, id=244, 342.8007pt x 209.1012pt>
 File: bfs4.png Graphic file (type png)
  <use bfs4.png>
-Package pdftex.def Info: bfs4.png used on input line 1522.
+Package pdftex.def Info: bfs4.png used on input line 1508.
 (pdftex.def)             Requested size: 184.9429pt x 112.81085pt.
 
-<bfs5.png, id=241, 337.5009pt x 207.4149pt>
+<bfs5.png, id=245, 337.5009pt x 207.4149pt>
 File: bfs5.png Graphic file (type png)
  <use bfs5.png>
-Package pdftex.def Info: bfs5.png used on input line 1523.
+Package pdftex.def Info: bfs5.png used on input line 1509.
 (pdftex.def)             Requested size: 184.9429pt x 113.65761pt.
 
-<bfsTree.png, id=242, 279.6849pt x 131.5314pt>
+<bfsTree.png, id=246, 279.6849pt x 131.5314pt>
 File: bfsTree.png Graphic file (type png)
  <use bfsTree.png>
-Package pdftex.def Info: bfsTree.png used on input line 1528.
+Package pdftex.def Info: bfsTree.png used on input line 1514.
 (pdftex.def)             Requested size: 184.9429pt x 86.97755pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[60 <./bfs0.png> <./bfs1.png> <./bfs2.png> <./bfs3.png> <./bfs4.png> <./bfs5.pn
-g>] <sccex.png, id=246, 379.8993pt x 164.7756pt>
+[61 <./bfs0.png> <./bfs1.png> <./bfs2.png> <./bfs3.png> <./bfs4.png> <./bfs5.pn
+g>] <sccex.png, id=251, 379.8993pt x 164.7756pt>
 File: sccex.png Graphic file (type png)
  <use sccex.png>
-Package pdftex.def Info: sccex.png used on input line 1541.
+Package pdftex.def Info: sccex.png used on input line 1527.
 (pdftex.def)             Requested size: 227.62204pt x 98.72781pt.
 
-<graphtranspose.png, id=247, 486.1362pt x 190.0701pt>
+<graphtranspose.png, id=252, 486.1362pt x 190.0701pt>
 File: graphtranspose.png Graphic file (type png)
  <use graphtranspose.png>
-Package pdftex.def Info: graphtranspose.png used on input line 1547.
+Package pdftex.def Info: graphtranspose.png used on input line 1533.
 (pdftex.def)             Requested size: 284.52756pt x 111.2471pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[61 <./bfsTree.png> <./sccex.png>]
-<scccomplete.png, id=252, 594.7821pt x 149.5989pt>
+[62 <./bfsTree.png> <./sccex.png>]
+<scccomplete.png, id=256, 594.7821pt x 149.5989pt>
 File: scccomplete.png Graphic file (type png)
  <use scccomplete.png>
-Package pdftex.def Info: scccomplete.png used on input line 1560.
+Package pdftex.def Info: scccomplete.png used on input line 1546.
 (pdftex.def)             Requested size: 369.88582pt x 93.03796pt.
 
-<scccomplete1.png, id=253, 420.6114pt x 218.9781pt>
+<scccomplete1.png, id=257, 420.6114pt x 218.9781pt>
 File: scccomplete1.png Graphic file (type png)
  <use scccomplete1.png>
-Package pdftex.def Info: scccomplete1.png used on input line 1567.
+Package pdftex.def Info: scccomplete1.png used on input line 1553.
 (pdftex.def)             Requested size: 284.52756pt x 148.13461pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[62 <./graphtranspose.png> <./scccomplete.png>]
-<scccomplete2.png, id=257, 267.399pt x 120.6909pt>
+[63 <./graphtranspose.png> <./scccomplete.png>]
+<scccomplete2.png, id=261, 267.399pt x 120.6909pt>
 File: scccomplete2.png Graphic file (type png)
  <use scccomplete2.png>
-Package pdftex.def Info: scccomplete2.png used on input line 1577.
+Package pdftex.def Info: scccomplete2.png used on input line 1563.
 (pdftex.def)             Requested size: 199.16928pt x 89.89732pt.
 
-<mstprob.png, id=258, 203.8014pt x 323.0469pt>
+<mstprob.png, id=262, 203.8014pt x 323.0469pt>
 File: mstprob.png Graphic file (type png)
  <use mstprob.png>
-Package pdftex.def Info: mstprob.png used on input line 1586.
+Package pdftex.def Info: mstprob.png used on input line 1572.
 (pdftex.def)             Requested size: 142.26378pt x 225.50526pt.
- [63 <./scccomplete1.png> <./scccomplete2.png>] [64 <./mstprob.png>]
-<mst1.png, id=266, 211.0284pt x 319.9152pt>
+ [64 <./scccomplete1.png> <./scccomplete2.png>] [65 <./mstprob.png>]
+<mst1.png, id=270, 211.0284pt x 319.9152pt>
 File: mst1.png Graphic file (type png)
  <use mst1.png>
-Package pdftex.def Info: mst1.png used on input line 1614.
+Package pdftex.def Info: mst1.png used on input line 1600.
 (pdftex.def)             Requested size: 158.19725pt x 239.8333pt.
 
-<mst2.png, id=267, 194.6472pt x 328.3467pt>
+<mst2.png, id=271, 194.6472pt x 328.3467pt>
 File: mst2.png Graphic file (type png)
  <use mst2.png>
-Package pdftex.def Info: mst2.png used on input line 1616.
+Package pdftex.def Info: mst2.png used on input line 1602.
 (pdftex.def)             Requested size: 142.26378pt x 239.98668pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[65] [66 <./mst1.png> <./mst2.png>]
-<kruprex.png, id=274, 234.8775pt x 168.1482pt>
+[66] [67 <./mst1.png> <./mst2.png>]
+<kruprex.png, id=279, 234.8775pt x 168.1482pt>
 File: kruprex.png Graphic file (type png)
  <use kruprex.png>
-Package pdftex.def Info: kruprex.png used on input line 1633.
+Package pdftex.def Info: kruprex.png used on input line 1619.
 (pdftex.def)             Requested size: 142.26378pt x 101.8467pt.
- [67
+ [68
 
  <./kruprex.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[68]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -867,45 +894,49 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [71]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[72]
 File: mst2.png Graphic file (type png)
  <use mst2.png>
-Package pdftex.def Info: mst2.png used on input line 1753.
+Package pdftex.def Info: mst2.png used on input line 1739.
 (pdftex.def)             Requested size: 142.26378pt x 239.98668pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[72] [73] [74] <d0.png, id=301, 578.16pt x 334.3692pt>
+[73] [74] [75] <d0.png, id=305, 578.16pt x 334.3692pt>
 File: d0.png Graphic file (type png)
  <use d0.png>
-Package pdftex.def Info: d0.png used on input line 1808.
+Package pdftex.def Info: d0.png used on input line 1794.
 (pdftex.def)             Requested size: 341.43306pt x 197.45978pt.
 
-<d1.png, id=302, 578.16pt x 379.4175pt>
+<d1.png, id=306, 578.16pt x 379.4175pt>
 File: d1.png Graphic file (type png)
  <use d1.png>
-Package pdftex.def Info: d1.png used on input line 1814.
+Package pdftex.def Info: d1.png used on input line 1800.
 (pdftex.def)             Requested size: 341.43306pt x 224.06279pt.
 
-<d2.png, id=303, 578.16pt x 379.4175pt>
+<d2.png, id=307, 578.16pt x 379.4175pt>
 File: d2.png Graphic file (type png)
  <use d2.png>
-Package pdftex.def Info: d2.png used on input line 1820.
+Package pdftex.def Info: d2.png used on input line 1806.
 (pdftex.def)             Requested size: 341.43306pt x 224.06279pt.
 
-<d3.png, id=304, 578.16pt x 379.4175pt>
+<d3.png, id=308, 578.16pt x 379.4175pt>
 File: d3.png Graphic file (type png)
  <use d3.png>
-Package pdftex.def Info: d3.png used on input line 1826.
+Package pdftex.def Info: d3.png used on input line 1812.
 (pdftex.def)             Requested size: 341.43306pt x 224.06279pt.
 
-<dfin.png, id=305, 578.16pt x 379.4175pt>
+<dfin.png, id=309, 578.16pt x 379.4175pt>
 File: dfin.png Graphic file (type png)
  <use dfin.png>
-Package pdftex.def Info: dfin.png used on input line 1832.
+Package pdftex.def Info: dfin.png used on input line 1818.
 (pdftex.def)             Requested size: 341.43306pt x 224.06279pt.
- [75] [76 <./d0.png> <./d1.png>] [77 <./d2.png> <./d3.png>]
-Overfull \hbox (47.81888pt too wide) detected at line 1839
+ [76] [77 <./d0.png> <./d1.png>] [78 <./d2.png> <./d3.png>]
+Overfull \hbox (47.81888pt too wide) detected at line 1825
 \OML/cmm/m/it/12 visited\OT1/cmr/m/n/12 [1\OML/cmm/m/it/12 :::n\OT1/cmr/m/n/12 
 ] : \OML/cmm/m/it/12 v\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 i\OT1/cmr/m/n/12 ] = []
 
@@ -914,34 +945,34 @@ Overfull \hbox (47.81888pt too wide) detected at line 1839
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[78 <./dfin.png>] [79] <bfex.png, id=322, 289.08pt x 209.583pt>
+[79 <./dfin.png>] [80] <bfex.png, id=326, 289.08pt x 209.583pt>
 File: bfex.png Graphic file (type png)
  <use bfex.png>
-Package pdftex.def Info: bfex.png used on input line 1889.
+Package pdftex.def Info: bfex.png used on input line 1875.
 (pdftex.def)             Requested size: 170.71652pt x 123.768pt.
 
-<bfcd.png, id=323, 578.16pt x 209.583pt>
+<bfcd.png, id=327, 578.16pt x 209.583pt>
 File: bfcd.png Graphic file (type png)
  <use bfcd.png>
-Package pdftex.def Info: bfcd.png used on input line 1890.
+Package pdftex.def Info: bfcd.png used on input line 1876.
 (pdftex.def)             Requested size: 341.43306pt x 123.768pt.
 
-<negcycles.png, id=324, 433.62pt x 252.945pt>
+<negcycles.png, id=328, 433.62pt x 252.945pt>
 File: negcycles.png Graphic file (type png)
  <use negcycles.png>
-Package pdftex.def Info: negcycles.png used on input line 1903.
+Package pdftex.def Info: negcycles.png used on input line 1889.
 (pdftex.def)             Requested size: 284.52756pt x 165.98317pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[80
+[81
 
- <./bfex.png> <./bfcd.png>] <negcycleex.png, id=328, 144.54pt x 144.54pt>
+ <./bfex.png> <./bfcd.png>] <negcycleex.png, id=332, 144.54pt x 144.54pt>
 File: negcycleex.png Graphic file (type png)
 
 <use negcycleex.png>
-Package pdftex.def Info: negcycleex.png used on input line 1933.
+Package pdftex.def Info: negcycleex.png used on input line 1919.
 (pdftex.def)             Requested size: 113.81102pt x 113.8104pt.
 
 
@@ -950,28 +981,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[81 <./negcycles.png>]
+[82 <./negcycles.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[82 <./negcycleex.png>] <bfex2.png, id=335, 361.35pt x 182.1204pt>
+[83 <./negcycleex.png>] <bfex2.png, id=339, 361.35pt x 182.1204pt>
 File: bfex2.png Graphic file (type png)
 
 <use bfex2.png>
-Package pdftex.def Info: bfex2.png used on input line 1976.
+Package pdftex.def Info: bfex2.png used on input line 1962.
 (pdftex.def)             Requested size: 256.0748pt x 129.06183pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[83] [84 <./bfex2.png>]
+[84] [85 <./bfex2.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[85] <fwex.png, id=346, 325.215pt x 262.0992pt>
+[86] <fwex.png, id=350, 325.215pt x 262.0992pt>
 File: fwex.png Graphic file (type png)
  <use fwex.png>
-Package pdftex.def Info: fwex.png used on input line 2045.
+Package pdftex.def Info: fwex.png used on input line 2031.
 (pdftex.def)             Requested size: 227.62204pt x 183.45218pt.
 
 
@@ -986,136 +1017,136 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[86 <./fwex.png>] [87] <mfsimple.png, id=353, 325.215pt x 180.675pt>
+[87 <./fwex.png>] [88] <mfsimple.png, id=357, 325.215pt x 180.675pt>
 File: mfsimple.png Graphic file (type png)
 
 <use mfsimple.png>
-Package pdftex.def Info: mfsimple.png used on input line 2117.
+Package pdftex.def Info: mfsimple.png used on input line 2103.
 (pdftex.def)             Requested size: 227.62204pt x 126.4606pt.
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2132.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2118.
 
- [88
+ [89
 
  <./mfsimple.png>]
-Overfull \hbox (0.88924pt too wide) in paragraph at lines 2141--2142
+Overfull \hbox (0.88924pt too wide) in paragraph at lines 2127--2128
 []\OT1/cmr/m/it/12 Given a flow net-work G and a flow
  []
 
-<defflownet.png, id=357, 397.485pt x 217.2918pt>
+<defflownet.png, id=361, 397.485pt x 217.2918pt>
 File: defflownet.png Graphic file (type png)
  <use defflownet.png>
-Package pdftex.def Info: defflownet.png used on input line 2155.
+Package pdftex.def Info: defflownet.png used on input line 2141.
 (pdftex.def)             Requested size: 227.62204pt x 124.43782pt.
 
-<defresnet.png, id=358, 397.485pt x 273.6624pt>
+<defresnet.png, id=362, 397.485pt x 273.6624pt>
 File: defresnet.png Graphic file (type png)
  <use defresnet.png>
-Package pdftex.def Info: defresnet.png used on input line 2160.
+Package pdftex.def Info: defresnet.png used on input line 2146.
 (pdftex.def)             Requested size: 227.62204pt x 156.71992pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[89 <./defflownet.png>]
-Overfull \hbox (3.9946pt too wide) in paragraph at lines 2166--2167
+[90 <./defflownet.png>]
+Overfull \hbox (3.9946pt too wide) in paragraph at lines 2152--2153
 []\OT1/cmr/m/it/12 An aug-ment-ing path is a sim-ple path
  []
 
-[90 <./defresnet.png>] <mf0f.png, id=365, 397.485pt x 259.6902pt>
+[91 <./defresnet.png>] <mf0f.png, id=370, 397.485pt x 259.6902pt>
 File: mf0f.png Graphic file (type png)
 
 <use mf0f.png>
-Package pdftex.def Info: mf0f.png used on input line 2207.
+Package pdftex.def Info: mf0f.png used on input line 2193.
 (pdftex.def)             Requested size: 170.71652pt x 111.5378pt.
- <mf0r.png, id=366, 397.485pt x 252.945pt>
+ <mf0r.png, id=371, 397.485pt x 252.945pt>
 File: mf0r.png Graphic file (type png)
  <use mf0r.png>
-Package pdftex.def Info: mf0r.png used on input line 2208.
+Package pdftex.def Info: mf0r.png used on input line 2194.
 (pdftex.def)             Requested size: 170.71652pt x 108.64072pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<mf1f.png, id=367, 397.485pt x 252.945pt>
+<mf1f.png, id=372, 397.485pt x 252.945pt>
 File: mf1f.png Graphic file (type png)
  <use mf1f.png>
-Package pdftex.def Info: mf1f.png used on input line 2213.
+Package pdftex.def Info: mf1f.png used on input line 2199.
 (pdftex.def)             Requested size: 170.71652pt x 108.64072pt.
 
-<mf1r.png, id=368, 397.485pt x 263.7855pt>
+<mf1r.png, id=373, 397.485pt x 263.7855pt>
 File: mf1r.png Graphic file (type png)
  <use mf1r.png>
-Package pdftex.def Info: mf1r.png used on input line 2214.
+Package pdftex.def Info: mf1r.png used on input line 2200.
 (pdftex.def)             Requested size: 170.71652pt x 113.29674pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<mf2f.png, id=369, 397.485pt x 252.945pt>
+<mf2f.png, id=374, 397.485pt x 252.945pt>
 File: mf2f.png Graphic file (type png)
  <use mf2f.png>
-Package pdftex.def Info: mf2f.png used on input line 2219.
+Package pdftex.def Info: mf2f.png used on input line 2205.
 (pdftex.def)             Requested size: 170.71652pt x 108.64072pt.
 
-<mf2r.png, id=370, 397.485pt x 317.0244pt>
+<mf2r.png, id=375, 397.485pt x 317.0244pt>
 File: mf2r.png Graphic file (type png)
  <use mf2r.png>
-Package pdftex.def Info: mf2r.png used on input line 2220.
+Package pdftex.def Info: mf2r.png used on input line 2206.
 (pdftex.def)             Requested size: 170.71652pt x 136.16302pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[91] [92 <./mf0f.png> <./mf0r.png> <./mf1f.png> <./mf1r.png> <./mf2f.png> <./mf
-2r.png>] <maxflowmincut.png, id=378, 542.025pt x 283.2984pt>
+[92] [93 <./mf0f.png> <./mf0r.png> <./mf1f.png> <./mf1r.png> <./mf2f.png> <./mf
+2r.png>] <maxflowmincut.png, id=382, 542.025pt x 283.2984pt>
 File: maxflowmincut.png Graphic file (type png)
 
 <use maxflowmincut.png>
-Package pdftex.def Info: maxflowmincut.png used on input line 2235.
+Package pdftex.def Info: maxflowmincut.png used on input line 2221.
 (pdftex.def)             Requested size: 227.62204pt x 118.97154pt.
 
-Overfull \hbox (37.57368pt too wide) in paragraph at lines 2232--2238
+Overfull \hbox (37.57368pt too wide) in paragraph at lines 2218--2224
 []\OT1/cmr/m/it/12 Given a flow net-work G=(V,E)
  []
 
-[93
+[94
 
  <./maxflowmincut.png>]
-<maximumvsmaximal.png, id=382, 397.485pt x 244.0317pt>
+<maximumvsmaximal.png, id=386, 397.485pt x 244.0317pt>
 File: maximumvsmaximal.png Graphic file (type png)
 
 <use maximumvsmaximal.png>
-Package pdftex.def Info: maximumvsmaximal.png used on input line 2256.
+Package pdftex.def Info: maximumvsmaximal.png used on input line 2242.
 (pdftex.def)             Requested size: 227.62204pt x 139.75114pt.
 
-Overfull \hbox (2.26544pt too wide) in paragraph at lines 2253--2258
+Overfull \hbox (2.26544pt too wide) in paragraph at lines 2239--2244
 []\OT1/cmr/m/it/12 A max-i-mum match-ing is an op-
  []
 
-<bipartiteff.png, id=383, 397.485pt x 216.81pt>
+<bipartiteff.png, id=387, 397.485pt x 216.81pt>
 File: bipartiteff.png Graphic file (type png)
  <use bipartiteff.png>
-Package pdftex.def Info: bipartiteff.png used on input line 2262.
+Package pdftex.def Info: bipartiteff.png used on input line 2248.
 (pdftex.def)             Requested size: 227.62204pt x 124.16191pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[94 <./maximumvsmaximal.png>] [95 <./bipartiteff.png>]
+[95 <./maximumvsmaximal.png>] [96 <./bipartiteff.png>]
 (AlgorithmsNotesCS2500.aux) )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3582 strings out of 493634
- 49012 string characters out of 3141320
- 128639 words of memory out of 3000000
- 6874 multiletter control sequences out of 15000+200000
+ 3742 strings out of 493634
+ 51295 string characters out of 3141320
+ 130140 words of memory out of 3000000
+ 7028 multiletter control sequences out of 15000+200000
  14739 words of font info for 55 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 42i,24n,45p,664b,1885s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,24n,45p,664b,1886s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmbx8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
@@ -1123,20 +1154,21 @@ bxti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 ex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
 12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.
 pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on AlgorithmsNotesCS2500.pdf (95 pages, 1804512 bytes).
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on AlgorithmsNotesCS2500.pdf (96 pages, 1815382 bytes).
 PDF statistics:
- 449 PDF objects out of 1000 (max. 8388607)
+ 456 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  326 words of extra memory for PDF output out of 10000 (max. 10000000)
 

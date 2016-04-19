@@ -2,6 +2,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{subfigure}
 \usepackage{soul}
 \usepackage{placeins}
 \usepackage{cancel}
@@ -1375,23 +1376,14 @@ DFSVisit(G,u) \Begin{
 \FloatBarrier
 \subsection{DFS Execution Example}
 \begin{figure}[h]
-\centering
-\includegraphics[width=5.5cm]{dfs0}
-\includegraphics[width=5.5cm]{dfs1}
+\subfigure[]{\includegraphics[width=5.5cm]{dfs0}}
+\subfigure[]{\includegraphics[width=5.5cm]{dfs1}}
+\subfigure[]{\includegraphics[width=5.5cm]{dfs2}}
+\subfigure[]{\includegraphics[width=5.5cm]{dfs3}}
+\subfigure[]{\includegraphics[width=5.5cm]{dfs4}} \hspace{2.5cm}
+\subfigure[]{\includegraphics[width=5.5cm]{dfs5}}
+\caption{Step by step execution of the DFS Algorithm}\end{figure}
 
-\end{figure}
-\begin{figure}[h]
-\centering
-\includegraphics[width=5.5cm]{dfs2}
-\includegraphics[width=5.5cm]{dfs3}
-
-\end{figure}
-\begin{figure}[h]
-\centering
-\includegraphics[width=5.5cm]{dfs4}
-\includegraphics[width=5.5cm]{dfs5}
-\caption{Step by step execution of the DFS Algorithm}
-\end{figure}
 \begin{figure}[h]
 \centering
 \includegraphics[width=5.5cm]{dfs6g}
@@ -1459,8 +1451,8 @@ TopologicalSort(G)\Begin{
 \end{algorithm}
 \begin{figure}
 \centering
-\includegraphics[width=6.5cm]{topo0}
-\includegraphics[width=6.5cm]{topofin}
+\subfigure[]{\includegraphics[width=6.5cm]{topo0}}
+\subfigure[]{\includegraphics[width=6.5cm]{topofin}}
 \caption{Initial and final states for the DAG on which the Topological Sorting algorithm is being executed}
 \end{figure}
 \begin{figure}
@@ -1509,18 +1501,12 @@ BFS(G,s)\Begin{
 \subsection{BFS Example}
 \begin{figure}[h]
 \centering
-\includegraphics[width=6.5cm]{bfs0}
-\includegraphics[width=6.5cm]{bfs1}
-\end{figure}
-\begin{figure}[h]
-\centering
-\includegraphics[width=6.5cm]{bfs2}
-\includegraphics[width=6.5cm]{bfs3}
-\end{figure}
-\begin{figure}[h]
-\centering
-\includegraphics[width=6.5cm]{bfs4}
-\includegraphics[width=6.5cm]{bfs5}
+\subfigure[]{\includegraphics[width=6.5cm]{bfs0}}
+\subfigure[]{\includegraphics[width=6.5cm]{bfs1}}
+\subfigure[]{\includegraphics[width=6.5cm]{bfs2}}
+\subfigure[]{\includegraphics[width=6.5cm]{bfs3}}
+\subfigure[]{\includegraphics[width=6.5cm]{bfs4}}
+\subfigure[]{\includegraphics[width=6.5cm]{bfs5}}
 \caption{Step by step execution of the BFS Algorithm}
 \end{figure}
 \begin{figure}[h]
