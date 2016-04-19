@@ -2137,5 +2137,131 @@ A flow in G is a function $f: V\times V\to R:$
 Given a flow of f the value $|f|$ is defined as follows:
 \[|f|=\sum_{v\in V}f(s,v)-\sum_{v\in V}f(v,s)\]
 \end{definition}
+\begin{definition}[Residual Networks]
+Given a flow network G and a flow f the residual network $G_f$ is as follows:
+\begin{itemize}
+\item Same nodes as G
+\item $\forall(u,v)\in E$ residual capacity is:
+\begin{itemize}
+\item $c_f(u,v)=c(u,v)-f(u,v)$
+\item $c_f(v,u)=f(u,v)$
+\end{itemize}
+\item In general:
+\[c_f(u,v)=\begin{cases}c(u,v)-f(u,v) & (u,v)\in E \\ f(u,v) & (v,u)\in E \\ 0 & otherwise \end{cases}\]
+\item the edges in $G_f, E_f=\{(u,v)\in V\times V : c_f(u,v)>0\}$
+\end{itemize}
+\begin{figure}[h]
+\centering
+\includegraphics[width=8cm]{defflownet}
+\caption{Flow Network}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[width=8cm]{defresnet}
+\caption{Residual Network with Augmenting Path in Bold}
+\end{figure}
+\end{definition}
+\FloatBarrier
+\begin{definition}[Augmenting Path]
+An augmenting path is a simple path from s to t in $G_f$. The maximum amount of flow that can be sent on an augmenting path p is defined as $c_f(p)=min\{c_f(u,v):(u,v)\in p\}$. An example is shown in the preceding figure highlighted in bold. In that case the augmenting path has a maximum amount of flow equal to the maximum flow in the edge (2,3) which is 4.
+\end{definition}
+To find the Maxflow begin with the flow network and continue to add augmenting flows to the flow network, then generate the residual network. As long as more augmenting paths may be found, continue to iterate and add them to the flow. Once there exists no more augmenting paths in the residual network the algorithm much terminate. 
+\paragraph{Ford Fulkerson Algorithm Intuition}
+\begin{enumerate}
+\item Start with an empty flow
+\item Calculate the residual network
+\item Find an augmenting path
+\item Update the flow: add the path
+\item Repeat steps 2-5 till no more paths exist
+\end{enumerate}
+\subsection{Ford-Fulkerson Algorithm Pseudocode}
+\begin{algorithm}
+Ford-Fulkerson(G,s,t)\Begin{
+	\For{ $(u,v)\in E$}{
+		$(u,v).f=0$ //amount of flow through (u,v) initialized
+	}
+	calculate residual network $G_f$\\
+	\While{$\exists p$ from s to t in $G_f$}{
+		select an augmenting path p\\
+		$c_f(p)=min\{c_f(u,v):(u,v)\in p\}$\\
+		\For{ $(u,v)\in p$}{
+			\If{$(u,v)\in E$}{
+				$(u,v).f=(u,v).f+c_f(p)$
+			}
+			\Else{
+				$(v,u).f=(v,u).f-c_f(p)$
+			}
+		}
+		calculate $G_f$\\
+	}
+	return  //if the value of the maxflow is desired, sum all flow values leaving the source and subtract any entering \\
+}
+\end{algorithm}
+\paragraph{Complexity of Ford-Fulkerson}
+If the capacities are all integer values, the algorithm is $O(E\times|F^*|)$ in the best case. Note: if the value of the maxflow is desired, sum all flow values leaving the source and subtract any entering.
+\subsection{Maxflow example}
+Consider the following graph and the graphs that follow which illustrate the execution of the Ford-Fulkerson Maxflow Algorithm:
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=6cm]{mf0f}
+\includegraphics[width=6cm]{mf0r}
+\caption{Ford-Fulkerson initial state and first iteration}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[width=6cm]{mf1f}
+\includegraphics[width=6cm]{mf1r}
+\caption{Ford-Fulkerson second iteration}
+\end{figure}
+\begin{figure}[h]
+\centering
+\includegraphics[width=6cm]{mf2f}
+\includegraphics[width=6cm]{mf2r}
+\caption{Ford-Fulkerson third iteration and halt}
+\end{figure}
+\FloatBarrier
+\begin{definition}[Cuts]
+A cut in a flow netwrok G+(V,E) is a partition of V into 2 sets S and T=V$\setminus$S such that $s\in S \wedge t\in T$.
+\end{definition}
+\begin{definition}[Cut Capacity]
+The capacity of a cut (S,T) is c(S,T):
+\[c(S,T)=\sum_{\substack{(u,v)\in E:\\ u\in S \wedge v\in T}}c(u,v)\]
+\end{definition}
+\begin{definition}[Maxflow Min Cut Theorem]
+Given a flow network G=(V,E) the value of the maximum flow for G is equal to the capacity of the minimum cut.
+\begin{figure}[h]
+\centering
+\includegraphics[width=8cm]{maxflowmincut}
+\caption{Cut in a graph illustrating the maxflow-min cut principle}
+\end{figure}
+\end{definition}
+\subsection{Bipartite matching problem}
+For a group of employees, each employee, presumably, has a set of skills. There exists a set of tasks in which each requires a set of skill in order to be completed. The relationship between tasks and employees that may be involved in their completion is one to one. Find an assignment, matching, of employees to tasks that maximizes the number of tasks executed. 
+\paragraph{Modeling with a Bipartite Graph}
+\begin{definition}[Bipartite Graph]
+A Bipartite graph is a graph in which the set of nodes are partitioned into two set L and R such that the following holds:\[G=(L\cup R,E)\wedge L\cap R=\{\}\wedge \forall(u,v)\in E, u\in L \wedge v\in R\]
+\end{definition}  
+In the current problem, the set of employees would be assigned nodes in L and the set of tasks would be assigned to nodes in R. There would exist an edge (u,v) between an employee (a node u in L) and a task (a node v in R) the employee posses the necessary skills to perform the task. The set of edges E will then be a subset of all possible edges between all nodes in L and all nodes in R, or $E\subseteq L\times R$
+\begin{definition}[Matching]
+A matching M is a subset of E such that each node has at most one edge in the matching which is incident on that node.
+\end{definition}
+\begin{definition}[Maximal Matching]
+A matching M is maximal if it cannot be extended without violating one of the aforementioned rules.
+\end{definition}
+\begin{definition}[Maximum Matching]
+A maximum matching is an optimal solution. 
+\begin{figure}[h]
+\centering
+\includegraphics[width=8cm]{maximumvsmaximal}
+\end{figure}
+\end{definition}
+\paragraph{Solution} The Ford Fulkerson Algorithm could be used to solve the problem by adding two nodes to the network, s and t, with an edge from s to each nodes in L and an edge from each node in R to t, as follows:
+\begin{figure}[h]
+\centering
+\includegraphics[width=8cm]{bipartiteff}
+\end{figure}
+\FloatBarrier
+In this setup, the edges must become directed from the source to nodes in L and from nodes in L to nodes in R and from nodes in R to t. The Ford-Fulkerson Algorithm maximizes flow in the network, which here means number of completed tasks. The maxflow, because of the way in which the graph has been slightly restructured, corresponds to the max matching. This is the system parameter that was desired to be optimized. This procedure can be generalized to be applied in a wide array of settings and tasks, and optimization problems.
 
 \end{document}

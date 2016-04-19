@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  18 APR 2016 15:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  18 APR 2016 21:42
 entering extended mode
 **./AlgorithmsNotesCS2500.tex
 (AlgorithmsNotesCS2500.tex
@@ -997,16 +997,122 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
 
  [88
 
- <./mfsimple.png>] [89] (AlgorithmsNotesCS2500.aux) )
+ <./mfsimple.png>]
+Overfull \hbox (0.88924pt too wide) in paragraph at lines 2141--2142
+[]\OT1/cmr/m/it/12 Given a flow net-work G and a flow
+ []
+
+<defflownet.png, id=358, 397.485pt x 217.2918pt>
+File: defflownet.png Graphic file (type png)
+ <use defflownet.png>
+Package pdftex.def Info: defflownet.png used on input line 2155.
+(pdftex.def)             Requested size: 227.62204pt x 124.43782pt.
+
+<defresnet.png, id=359, 397.485pt x 273.6624pt>
+File: defresnet.png Graphic file (type png)
+ <use defresnet.png>
+Package pdftex.def Info: defresnet.png used on input line 2160.
+(pdftex.def)             Requested size: 227.62204pt x 156.71992pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[89 <./defflownet.png>]
+Overfull \hbox (3.9946pt too wide) in paragraph at lines 2166--2167
+[]\OT1/cmr/m/it/12 An aug-ment-ing path is a sim-ple path
+ []
+
+[90 <./defresnet.png>] <mf0f.png, id=366, 397.485pt x 259.6902pt>
+File: mf0f.png Graphic file (type png)
+
+<use mf0f.png>
+Package pdftex.def Info: mf0f.png used on input line 2207.
+(pdftex.def)             Requested size: 170.71652pt x 111.5378pt.
+ <mf0r.png, id=367, 397.485pt x 252.945pt>
+File: mf0r.png Graphic file (type png)
+ <use mf0r.png>
+Package pdftex.def Info: mf0r.png used on input line 2208.
+(pdftex.def)             Requested size: 170.71652pt x 108.64072pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<mf1f.png, id=368, 397.485pt x 252.945pt>
+File: mf1f.png Graphic file (type png)
+ <use mf1f.png>
+Package pdftex.def Info: mf1f.png used on input line 2213.
+(pdftex.def)             Requested size: 170.71652pt x 108.64072pt.
+
+<mf1r.png, id=369, 397.485pt x 263.7855pt>
+File: mf1r.png Graphic file (type png)
+ <use mf1r.png>
+Package pdftex.def Info: mf1r.png used on input line 2214.
+(pdftex.def)             Requested size: 170.71652pt x 113.29674pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<mf2f.png, id=370, 397.485pt x 252.945pt>
+File: mf2f.png Graphic file (type png)
+ <use mf2f.png>
+Package pdftex.def Info: mf2f.png used on input line 2219.
+(pdftex.def)             Requested size: 170.71652pt x 108.64072pt.
+
+<mf2r.png, id=371, 397.485pt x 317.0244pt>
+File: mf2r.png Graphic file (type png)
+ <use mf2r.png>
+Package pdftex.def Info: mf2r.png used on input line 2220.
+(pdftex.def)             Requested size: 170.71652pt x 136.16302pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[91] [92 <./mf0f.png> <./mf0r.png> <./mf1f.png> <./mf1r.png> <./mf2f.png> <./mf
+2r.png>] <maxflowmincut.png, id=379, 542.025pt x 283.2984pt>
+File: maxflowmincut.png Graphic file (type png)
+
+<use maxflowmincut.png>
+Package pdftex.def Info: maxflowmincut.png used on input line 2235.
+(pdftex.def)             Requested size: 227.62204pt x 118.97154pt.
+
+Overfull \hbox (37.57368pt too wide) in paragraph at lines 2232--2238
+[]\OT1/cmr/m/it/12 Given a flow net-work G=(V,E)
+ []
+
+[93
+
+ <./maxflowmincut.png>]
+<maximumvsmaximal.png, id=383, 397.485pt x 244.0317pt>
+File: maximumvsmaximal.png Graphic file (type png)
+
+<use maximumvsmaximal.png>
+Package pdftex.def Info: maximumvsmaximal.png used on input line 2256.
+(pdftex.def)             Requested size: 227.62204pt x 139.75114pt.
+
+Overfull \hbox (2.26544pt too wide) in paragraph at lines 2253--2258
+[]\OT1/cmr/m/it/12 A max-i-mum match-ing is an op-
+ []
+
+<bipartiteff.png, id=384, 397.485pt x 216.81pt>
+File: bipartiteff.png Graphic file (type png)
+ <use bipartiteff.png>
+Package pdftex.def Info: bipartiteff.png used on input line 2262.
+(pdftex.def)             Requested size: 227.62204pt x 124.16191pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[94 <./maximumvsmaximal.png>] [95 <./bipartiteff.png>]
+(AlgorithmsNotesCS2500.aux) )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3527 strings out of 493634
- 48168 string characters out of 3141320
+ 3582 strings out of 493634
+ 49012 string characters out of 3141320
  128639 words of memory out of 3000000
- 6830 multiletter control sequences out of 15000+200000
+ 6874 multiletter control sequences out of 15000+200000
  14739 words of font info for 55 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  42i,24n,45p,664b,1885s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1028,9 +1134,9 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on AlgorithmsNotesCS2500.pdf (89 pages, 1448604 bytes).
+Output written on AlgorithmsNotesCS2500.pdf (95 pages, 1768860 bytes).
 PDF statistics:
- 420 PDF objects out of 1000 (max. 8388607)
+ 450 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 271 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 326 words of extra memory for PDF output out of 10000 (max. 10000000)
 
