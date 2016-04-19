@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  18 APR 2016 21:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.11)  18 APR 2016 21:55
 entering extended mode
 **./AlgorithmsNotesCS2500.tex
 (AlgorithmsNotesCS2500.tex
@@ -479,18 +479,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 404--406
 Overfull \vbox (69.56334pt too high) has occurred while \output is active []
 
 
-[17] <mergesort.png, id=80, 465.74pt x 350.30875pt>
-File: mergesort.png Graphic file (type png)
- <use mergesort.png>
-Package pdftex.def Info: mergesort.png used on input line 492.
+[17] <mergesort.jpg, id=80, 465.74pt x 350.30875pt>
+File: mergesort.jpg Graphic file (type jpg)
+ <use mergesort.jpg>
+Package pdftex.def Info: mergesort.jpg used on input line 492.
 (pdftex.def)             Requested size: 227.62204pt x 171.20378pt.
 
-[18 <./mergesort.png>]
+[18 <./mergesort.jpg>]
 Overfull \hbox (71.03209pt too wide) in paragraph at lines 524--535
  [][] 
  []
 
-<maxsubarray.jpg, id=85, 117.3183pt x 17.1039pt>
+<maxsubarray.jpg, id=84, 117.3183pt x 17.1039pt>
 File: maxsubarray.jpg Graphic file (type jpg)
  <use maxsubarray.jpg>
 Package pdftex.def Info: maxsubarray.jpg used on input line 548.
@@ -500,7 +500,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 545--550
 
  []
 
-[19] <maxcrosssubarraysme.png, id=90, 401.5pt x 200.75pt>
+[19] <maxcrosssubarraysme.png, id=89, 401.5pt x 200.75pt>
 File: maxcrosssubarraysme.png Graphic file (type png)
 
 <use maxcrosssubarraysme.png>
@@ -515,7 +515,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 618--619
 
  []
 
-<quicksortbetter.png, id=94, 794.97pt x 614.295pt>
+<quicksortbetter.png, id=93, 794.97pt x 614.295pt>
 File: quicksortbetter.png Graphic file (type png)
  <use quicksortbetter.png>
 Package pdftex.def Info: quicksortbetter.png used on input line 653.
@@ -537,14 +537,14 @@ Overfull \vbox (1.6315pt too high) has occurred while \output is active []
 
 
 [24 <./quicksortbetter.png>]
-<countingsort.jpg, id=110, 439.6425pt x 159.59625pt>
+<countingsort.jpg, id=109, 439.6425pt x 159.59625pt>
 File: countingsort.jpg Graphic file (type jpg)
  <use countingsort.jpg>
 Package pdftex.def Info: countingsort.jpg used on input line 693.
 (pdftex.def)             Requested size: 284.52756pt x 103.29066pt.
 
 [25] [26 <./countingsort.jpg>]
-<greedyactivity.jpg, id=118, 507.8975pt x 201.75375pt>
+<greedyactivity.jpg, id=117, 507.8975pt x 201.75375pt>
 File: greedyactivity.jpg Graphic file (type jpg)
 
 <use greedyactivity.jpg>
@@ -638,7 +638,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1272--1274
 
  []
 
-<defGraph1.png, id=189, 258.0039pt x 153.6942pt>
+<defGraph1.png, id=188, 258.0039pt x 153.6942pt>
 File: defGraph1.png Graphic file (type png)
  <use defGraph1.png>
 Package pdftex.def Info: defGraph1.png used on input line 1292.
@@ -652,7 +652,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1297--1298
 
  []
 
-<AdjList.png, id=194, 522.2712pt x 273.1806pt>
+<AdjList.png, id=193, 522.2712pt x 273.1806pt>
 File: AdjList.png Graphic file (type png)
  <use AdjList.png>
 Package pdftex.def Info: AdjList.png used on input line 1301.
@@ -663,37 +663,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 1306--1307
  []
 
 [50 <./defGraph1.png> <./AdjList.png>] [51] [52]
-<dfs0.png, id=204, 240.4182pt x 157.5486pt>
+<dfs0.png, id=203, 240.4182pt x 157.5486pt>
 File: dfs0.png Graphic file (type png)
  <use dfs0.png>
 Package pdftex.def Info: dfs0.png used on input line 1379.
 (pdftex.def)             Requested size: 156.49014pt x 102.55441pt.
 
-<dfs1.png, id=205, 240.4182pt x 160.9212pt>
+<dfs1.png, id=204, 240.4182pt x 160.9212pt>
 File: dfs1.png Graphic file (type png)
  <use dfs1.png>
 Package pdftex.def Info: dfs1.png used on input line 1380.
 (pdftex.def)             Requested size: 156.49014pt x 104.74977pt.
 
-<dfs2.png, id=206, 240.6591pt x 156.8259pt>
+<dfs2.png, id=205, 240.6591pt x 156.8259pt>
 File: dfs2.png Graphic file (type png)
  <use dfs2.png>
 Package pdftex.def Info: dfs2.png used on input line 1385.
 (pdftex.def)             Requested size: 156.49014pt x 101.97629pt.
 
-<dfs3.png, id=207, 236.8047pt x 157.5486pt>
+<dfs3.png, id=206, 236.8047pt x 157.5486pt>
 File: dfs3.png Graphic file (type png)
  <use dfs3.png>
 Package pdftex.def Info: dfs3.png used on input line 1386.
 (pdftex.def)             Requested size: 156.49014pt x 104.117pt.
 
-<dfs4.png, id=208, 245.2362pt x 162.6075pt>
+<dfs4.png, id=207, 245.2362pt x 162.6075pt>
 File: dfs4.png Graphic file (type png)
  <use dfs4.png>
 Package pdftex.def Info: dfs4.png used on input line 1391.
 (pdftex.def)             Requested size: 156.49014pt x 103.76324pt.
 
-<dfs5.png, id=209, 247.6452pt x 166.221pt>
+<dfs5.png, id=208, 247.6452pt x 166.221pt>
 File: dfs5.png Graphic file (type png)
  <use dfs5.png>
 Package pdftex.def Info: dfs5.png used on input line 1392.
@@ -702,7 +702,7 @@ Package pdftex.def Info: dfs5.png used on input line 1392.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<dfs6g.png, id=210, 243.5499pt x 168.3891pt>
+<dfs6g.png, id=209, 243.5499pt x 168.3891pt>
 File: dfs6g.png Graphic file (type png)
  <use dfs6g.png>
 Package pdftex.def Info: dfs6g.png used on input line 1397.
@@ -712,68 +712,68 @@ Package pdftex.def Info: dfs6g.png used on input line 1397.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [53 <./dfs0.png> <./dfs1.png> <./dfs2.png> <./dfs3.png>] [54 <./dfs4.png> <./df
-s5.png> <./dfs6g.png>] <Topological.png, id=217, 323.7696pt x 105.2733pt>
+s5.png> <./dfs6g.png>] <Topological.png, id=216, 323.7696pt x 105.2733pt>
 File: Topological.png Graphic file (type png)
 
 <use Topological.png>
 Package pdftex.def Info: Topological.png used on input line 1420.
 (pdftex.def)             Requested size: 284.52756pt x 92.5187pt.
- <topo0.png, id=218, 261.1356pt x 388.0899pt>
+ <topo0.png, id=217, 261.1356pt x 388.0899pt>
 File: topo0.png Graphic file (type png)
 
 <use topo0.png>
 Package pdftex.def Info: topo0.png used on input line 1462.
 (pdftex.def)             Requested size: 184.9429pt x 274.86475pt.
- <topofin.png, id=219, 266.4354pt x 402.5439pt>
+ <topofin.png, id=218, 266.4354pt x 402.5439pt>
 File: topofin.png Graphic file (type png)
 
 <use topofin.png>
 Package pdftex.def Info: topofin.png used on input line 1463.
 (pdftex.def)             Requested size: 184.9429pt x 279.43243pt.
- <TopoSort.png, id=220, 561.5379pt x 303.0522pt>
+ <TopoSort.png, id=219, 561.5379pt x 303.0522pt>
 File: TopoSort.png Graphic file (type png)
 
 <use TopoSort.png>
 Package pdftex.def Info: TopoSort.png used on input line 1468.
 (pdftex.def)             Requested size: 341.43306pt x 184.26505pt.
  [55 <./Topological.png>] [56] [57 <./topo0.png> <./topofin.png>] [58 <./TopoSo
-rt.png>] [59] <bfs0.png, id=237, 357.2547pt x 207.8967pt>
+rt.png>] [59] <bfs0.png, id=236, 357.2547pt x 207.8967pt>
 File: bfs0.png Graphic file (type png)
 
 <use bfs0.png>
 Package pdftex.def Info: bfs0.png used on input line 1512.
 (pdftex.def)             Requested size: 184.9429pt x 107.62154pt.
- <bfs1.png, id=238, 352.4367pt x 209.583pt>
+ <bfs1.png, id=237, 352.4367pt x 209.583pt>
 File: bfs1.png Graphic file (type png)
  <use bfs1.png>
 Package pdftex.def Info: bfs1.png used on input line 1513.
 (pdftex.def)             Requested size: 184.9429pt x 109.98154pt.
 
-<bfs2.png, id=239, 352.4367pt x 207.8967pt>
+<bfs2.png, id=238, 352.4367pt x 207.8967pt>
 File: bfs2.png Graphic file (type png)
  <use bfs2.png>
 Package pdftex.def Info: bfs2.png used on input line 1517.
 (pdftex.def)             Requested size: 184.9429pt x 109.09663pt.
 
-<bfs3.png, id=240, 351.9549pt x 207.4149pt>
+<bfs3.png, id=239, 351.9549pt x 207.4149pt>
 File: bfs3.png Graphic file (type png)
  <use bfs3.png>
 Package pdftex.def Info: bfs3.png used on input line 1518.
 (pdftex.def)             Requested size: 184.9429pt x 108.9894pt.
 
-<bfs4.png, id=241, 342.8007pt x 209.1012pt>
+<bfs4.png, id=240, 342.8007pt x 209.1012pt>
 File: bfs4.png Graphic file (type png)
  <use bfs4.png>
 Package pdftex.def Info: bfs4.png used on input line 1522.
 (pdftex.def)             Requested size: 184.9429pt x 112.81085pt.
 
-<bfs5.png, id=242, 337.5009pt x 207.4149pt>
+<bfs5.png, id=241, 337.5009pt x 207.4149pt>
 File: bfs5.png Graphic file (type png)
  <use bfs5.png>
 Package pdftex.def Info: bfs5.png used on input line 1523.
 (pdftex.def)             Requested size: 184.9429pt x 113.65761pt.
 
-<bfsTree.png, id=243, 279.6849pt x 131.5314pt>
+<bfsTree.png, id=242, 279.6849pt x 131.5314pt>
 File: bfsTree.png Graphic file (type png)
  <use bfsTree.png>
 Package pdftex.def Info: bfsTree.png used on input line 1528.
@@ -783,13 +783,13 @@ Package pdftex.def Info: bfsTree.png used on input line 1528.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [60 <./bfs0.png> <./bfs1.png> <./bfs2.png> <./bfs3.png> <./bfs4.png> <./bfs5.pn
-g>] <sccex.png, id=247, 379.8993pt x 164.7756pt>
+g>] <sccex.png, id=246, 379.8993pt x 164.7756pt>
 File: sccex.png Graphic file (type png)
  <use sccex.png>
 Package pdftex.def Info: sccex.png used on input line 1541.
 (pdftex.def)             Requested size: 227.62204pt x 98.72781pt.
 
-<graphtranspose.png, id=248, 486.1362pt x 190.0701pt>
+<graphtranspose.png, id=247, 486.1362pt x 190.0701pt>
 File: graphtranspose.png Graphic file (type png)
  <use graphtranspose.png>
 Package pdftex.def Info: graphtranspose.png used on input line 1547.
@@ -799,13 +799,13 @@ Package pdftex.def Info: graphtranspose.png used on input line 1547.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [61 <./bfsTree.png> <./sccex.png>]
-<scccomplete.png, id=253, 594.7821pt x 149.5989pt>
+<scccomplete.png, id=252, 594.7821pt x 149.5989pt>
 File: scccomplete.png Graphic file (type png)
  <use scccomplete.png>
 Package pdftex.def Info: scccomplete.png used on input line 1560.
 (pdftex.def)             Requested size: 369.88582pt x 93.03796pt.
 
-<scccomplete1.png, id=254, 420.6114pt x 218.9781pt>
+<scccomplete1.png, id=253, 420.6114pt x 218.9781pt>
 File: scccomplete1.png Graphic file (type png)
  <use scccomplete1.png>
 Package pdftex.def Info: scccomplete1.png used on input line 1567.
@@ -815,25 +815,25 @@ Package pdftex.def Info: scccomplete1.png used on input line 1567.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [62 <./graphtranspose.png> <./scccomplete.png>]
-<scccomplete2.png, id=258, 267.399pt x 120.6909pt>
+<scccomplete2.png, id=257, 267.399pt x 120.6909pt>
 File: scccomplete2.png Graphic file (type png)
  <use scccomplete2.png>
 Package pdftex.def Info: scccomplete2.png used on input line 1577.
 (pdftex.def)             Requested size: 199.16928pt x 89.89732pt.
 
-<mstprob.png, id=259, 203.8014pt x 323.0469pt>
+<mstprob.png, id=258, 203.8014pt x 323.0469pt>
 File: mstprob.png Graphic file (type png)
  <use mstprob.png>
 Package pdftex.def Info: mstprob.png used on input line 1586.
 (pdftex.def)             Requested size: 142.26378pt x 225.50526pt.
  [63 <./scccomplete1.png> <./scccomplete2.png>] [64 <./mstprob.png>]
-<mst1.png, id=267, 211.0284pt x 319.9152pt>
+<mst1.png, id=266, 211.0284pt x 319.9152pt>
 File: mst1.png Graphic file (type png)
  <use mst1.png>
 Package pdftex.def Info: mst1.png used on input line 1614.
 (pdftex.def)             Requested size: 158.19725pt x 239.8333pt.
 
-<mst2.png, id=268, 194.6472pt x 328.3467pt>
+<mst2.png, id=267, 194.6472pt x 328.3467pt>
 File: mst2.png Graphic file (type png)
  <use mst2.png>
 Package pdftex.def Info: mst2.png used on input line 1616.
@@ -843,7 +843,7 @@ Package pdftex.def Info: mst2.png used on input line 1616.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [65] [66 <./mst1.png> <./mst2.png>]
-<kruprex.png, id=275, 234.8775pt x 168.1482pt>
+<kruprex.png, id=274, 234.8775pt x 168.1482pt>
 File: kruprex.png Graphic file (type png)
  <use kruprex.png>
 Package pdftex.def Info: kruprex.png used on input line 1633.
@@ -875,31 +875,31 @@ Package pdftex.def Info: mst2.png used on input line 1753.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[72] [73] [74] <d0.png, id=302, 578.16pt x 334.3692pt>
+[72] [73] [74] <d0.png, id=301, 578.16pt x 334.3692pt>
 File: d0.png Graphic file (type png)
  <use d0.png>
 Package pdftex.def Info: d0.png used on input line 1808.
 (pdftex.def)             Requested size: 341.43306pt x 197.45978pt.
 
-<d1.png, id=303, 578.16pt x 379.4175pt>
+<d1.png, id=302, 578.16pt x 379.4175pt>
 File: d1.png Graphic file (type png)
  <use d1.png>
 Package pdftex.def Info: d1.png used on input line 1814.
 (pdftex.def)             Requested size: 341.43306pt x 224.06279pt.
 
-<d2.png, id=304, 578.16pt x 379.4175pt>
+<d2.png, id=303, 578.16pt x 379.4175pt>
 File: d2.png Graphic file (type png)
  <use d2.png>
 Package pdftex.def Info: d2.png used on input line 1820.
 (pdftex.def)             Requested size: 341.43306pt x 224.06279pt.
 
-<d3.png, id=305, 578.16pt x 379.4175pt>
+<d3.png, id=304, 578.16pt x 379.4175pt>
 File: d3.png Graphic file (type png)
  <use d3.png>
 Package pdftex.def Info: d3.png used on input line 1826.
 (pdftex.def)             Requested size: 341.43306pt x 224.06279pt.
 
-<dfin.png, id=306, 578.16pt x 379.4175pt>
+<dfin.png, id=305, 578.16pt x 379.4175pt>
 File: dfin.png Graphic file (type png)
  <use dfin.png>
 Package pdftex.def Info: dfin.png used on input line 1832.
@@ -914,19 +914,19 @@ Overfull \hbox (47.81888pt too wide) detected at line 1839
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[78 <./dfin.png>] [79] <bfex.png, id=323, 289.08pt x 209.583pt>
+[78 <./dfin.png>] [79] <bfex.png, id=322, 289.08pt x 209.583pt>
 File: bfex.png Graphic file (type png)
  <use bfex.png>
 Package pdftex.def Info: bfex.png used on input line 1889.
 (pdftex.def)             Requested size: 170.71652pt x 123.768pt.
 
-<bfcd.png, id=324, 578.16pt x 209.583pt>
+<bfcd.png, id=323, 578.16pt x 209.583pt>
 File: bfcd.png Graphic file (type png)
  <use bfcd.png>
 Package pdftex.def Info: bfcd.png used on input line 1890.
 (pdftex.def)             Requested size: 341.43306pt x 123.768pt.
 
-<negcycles.png, id=325, 433.62pt x 252.945pt>
+<negcycles.png, id=324, 433.62pt x 252.945pt>
 File: negcycles.png Graphic file (type png)
  <use negcycles.png>
 Package pdftex.def Info: negcycles.png used on input line 1903.
@@ -937,7 +937,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [80
 
- <./bfex.png> <./bfcd.png>] <negcycleex.png, id=329, 144.54pt x 144.54pt>
+ <./bfex.png> <./bfcd.png>] <negcycleex.png, id=328, 144.54pt x 144.54pt>
 File: negcycleex.png Graphic file (type png)
 
 <use negcycleex.png>
@@ -954,7 +954,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[82 <./negcycleex.png>] <bfex2.png, id=336, 361.35pt x 182.1204pt>
+[82 <./negcycleex.png>] <bfex2.png, id=335, 361.35pt x 182.1204pt>
 File: bfex2.png Graphic file (type png)
 
 <use bfex2.png>
@@ -968,7 +968,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[85] <fwex.png, id=347, 325.215pt x 262.0992pt>
+[85] <fwex.png, id=346, 325.215pt x 262.0992pt>
 File: fwex.png Graphic file (type png)
  <use fwex.png>
 Package pdftex.def Info: fwex.png used on input line 2045.
@@ -986,7 +986,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[86 <./fwex.png>] [87] <mfsimple.png, id=354, 325.215pt x 180.675pt>
+[86 <./fwex.png>] [87] <mfsimple.png, id=353, 325.215pt x 180.675pt>
 File: mfsimple.png Graphic file (type png)
 
 <use mfsimple.png>
@@ -1002,13 +1002,13 @@ Overfull \hbox (0.88924pt too wide) in paragraph at lines 2141--2142
 []\OT1/cmr/m/it/12 Given a flow net-work G and a flow
  []
 
-<defflownet.png, id=358, 397.485pt x 217.2918pt>
+<defflownet.png, id=357, 397.485pt x 217.2918pt>
 File: defflownet.png Graphic file (type png)
  <use defflownet.png>
 Package pdftex.def Info: defflownet.png used on input line 2155.
 (pdftex.def)             Requested size: 227.62204pt x 124.43782pt.
 
-<defresnet.png, id=359, 397.485pt x 273.6624pt>
+<defresnet.png, id=358, 397.485pt x 273.6624pt>
 File: defresnet.png Graphic file (type png)
  <use defresnet.png>
 Package pdftex.def Info: defresnet.png used on input line 2160.
@@ -1022,13 +1022,13 @@ Overfull \hbox (3.9946pt too wide) in paragraph at lines 2166--2167
 []\OT1/cmr/m/it/12 An aug-ment-ing path is a sim-ple path
  []
 
-[90 <./defresnet.png>] <mf0f.png, id=366, 397.485pt x 259.6902pt>
+[90 <./defresnet.png>] <mf0f.png, id=365, 397.485pt x 259.6902pt>
 File: mf0f.png Graphic file (type png)
 
 <use mf0f.png>
 Package pdftex.def Info: mf0f.png used on input line 2207.
 (pdftex.def)             Requested size: 170.71652pt x 111.5378pt.
- <mf0r.png, id=367, 397.485pt x 252.945pt>
+ <mf0r.png, id=366, 397.485pt x 252.945pt>
 File: mf0r.png Graphic file (type png)
  <use mf0r.png>
 Package pdftex.def Info: mf0r.png used on input line 2208.
@@ -1037,13 +1037,13 @@ Package pdftex.def Info: mf0r.png used on input line 2208.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<mf1f.png, id=368, 397.485pt x 252.945pt>
+<mf1f.png, id=367, 397.485pt x 252.945pt>
 File: mf1f.png Graphic file (type png)
  <use mf1f.png>
 Package pdftex.def Info: mf1f.png used on input line 2213.
 (pdftex.def)             Requested size: 170.71652pt x 108.64072pt.
 
-<mf1r.png, id=369, 397.485pt x 263.7855pt>
+<mf1r.png, id=368, 397.485pt x 263.7855pt>
 File: mf1r.png Graphic file (type png)
  <use mf1r.png>
 Package pdftex.def Info: mf1r.png used on input line 2214.
@@ -1052,13 +1052,13 @@ Package pdftex.def Info: mf1r.png used on input line 2214.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<mf2f.png, id=370, 397.485pt x 252.945pt>
+<mf2f.png, id=369, 397.485pt x 252.945pt>
 File: mf2f.png Graphic file (type png)
  <use mf2f.png>
 Package pdftex.def Info: mf2f.png used on input line 2219.
 (pdftex.def)             Requested size: 170.71652pt x 108.64072pt.
 
-<mf2r.png, id=371, 397.485pt x 317.0244pt>
+<mf2r.png, id=370, 397.485pt x 317.0244pt>
 File: mf2r.png Graphic file (type png)
  <use mf2r.png>
 Package pdftex.def Info: mf2r.png used on input line 2220.
@@ -1068,7 +1068,7 @@ Package pdftex.def Info: mf2r.png used on input line 2220.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [91] [92 <./mf0f.png> <./mf0r.png> <./mf1f.png> <./mf1r.png> <./mf2f.png> <./mf
-2r.png>] <maxflowmincut.png, id=379, 542.025pt x 283.2984pt>
+2r.png>] <maxflowmincut.png, id=378, 542.025pt x 283.2984pt>
 File: maxflowmincut.png Graphic file (type png)
 
 <use maxflowmincut.png>
@@ -1082,7 +1082,7 @@ Overfull \hbox (37.57368pt too wide) in paragraph at lines 2232--2238
 [93
 
  <./maxflowmincut.png>]
-<maximumvsmaximal.png, id=383, 397.485pt x 244.0317pt>
+<maximumvsmaximal.png, id=382, 397.485pt x 244.0317pt>
 File: maximumvsmaximal.png Graphic file (type png)
 
 <use maximumvsmaximal.png>
@@ -1093,7 +1093,7 @@ Overfull \hbox (2.26544pt too wide) in paragraph at lines 2253--2258
 []\OT1/cmr/m/it/12 A max-i-mum match-ing is an op-
  []
 
-<bipartiteff.png, id=384, 397.485pt x 216.81pt>
+<bipartiteff.png, id=383, 397.485pt x 216.81pt>
 File: bipartiteff.png Graphic file (type png)
  <use bipartiteff.png>
 Package pdftex.def Info: bipartiteff.png used on input line 2262.
@@ -1134,9 +1134,9 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program File
 s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on AlgorithmsNotesCS2500.pdf (95 pages, 1768860 bytes).
+Output written on AlgorithmsNotesCS2500.pdf (95 pages, 1804512 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
+ 449 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  326 words of extra memory for PDF output out of 10000 (max. 10000000)
 
